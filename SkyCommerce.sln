@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8846DC67-5563-4859-94D7-D1088F67512C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyCommerce.Domain", "src\SkyCommerce.Domain\SkyCommerce.Domain.csproj", "{A55C659E-E49D-4DD7-86CD-25864470D981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyCommerce.Application", "src\SkyCommerce.Application\SkyCommerce.Application.csproj", "{BE4F5265-FA6A-4B1F-A254-435566F6C548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyCommerce.Infrastructure", "src\SkyCommerce.Infrastructure\SkyCommerce.Infrastructure.csproj", "{4F7CA6F1-9923-43CB-8271-D8B8CECAE1C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyCommerce.Api", "src\SkyCommerce.Api\SkyCommerce.Api.csproj", "{A6D6A03D-FB64-49DF-857A-CBC121043CF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C094C1E9-3A6D-4C3A-A095-4E63FA4DC36B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyCommerce.UnitTests", "tests\SkyCommerce.UnitTests\SkyCommerce.UnitTests.csproj", "{470C68C0-F6E8-446A-A2B2-321E0B38B2DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A55C659E-E49D-4DD7-86CD-25864470D981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55C659E-E49D-4DD7-86CD-25864470D981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55C659E-E49D-4DD7-86CD-25864470D981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55C659E-E49D-4DD7-86CD-25864470D981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4F5265-FA6A-4B1F-A254-435566F6C548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4F5265-FA6A-4B1F-A254-435566F6C548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4F5265-FA6A-4B1F-A254-435566F6C548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4F5265-FA6A-4B1F-A254-435566F6C548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7CA6F1-9923-43CB-8271-D8B8CECAE1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7CA6F1-9923-43CB-8271-D8B8CECAE1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7CA6F1-9923-43CB-8271-D8B8CECAE1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7CA6F1-9923-43CB-8271-D8B8CECAE1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D6A03D-FB64-49DF-857A-CBC121043CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D6A03D-FB64-49DF-857A-CBC121043CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D6A03D-FB64-49DF-857A-CBC121043CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D6A03D-FB64-49DF-857A-CBC121043CF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470C68C0-F6E8-446A-A2B2-321E0B38B2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470C68C0-F6E8-446A-A2B2-321E0B38B2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470C68C0-F6E8-446A-A2B2-321E0B38B2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470C68C0-F6E8-446A-A2B2-321E0B38B2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A55C659E-E49D-4DD7-86CD-25864470D981} = {8846DC67-5563-4859-94D7-D1088F67512C}
+		{BE4F5265-FA6A-4B1F-A254-435566F6C548} = {8846DC67-5563-4859-94D7-D1088F67512C}
+		{4F7CA6F1-9923-43CB-8271-D8B8CECAE1C4} = {8846DC67-5563-4859-94D7-D1088F67512C}
+		{A6D6A03D-FB64-49DF-857A-CBC121043CF2} = {8846DC67-5563-4859-94D7-D1088F67512C}
+		{470C68C0-F6E8-446A-A2B2-321E0B38B2DF} = {C094C1E9-3A6D-4C3A-A095-4E63FA4DC36B}
+	EndGlobalSection
+EndGlobal
